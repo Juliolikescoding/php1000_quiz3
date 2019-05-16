@@ -9,19 +9,30 @@
 
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 	<style type="text/css">
 		.card {
+			font-size:12pt;
+			text-align: center;
 			margin-bottom: 30px;
+
 		}
 		.card-img-top {
 			height: 150px;
 		}
+		.fa-thumbs-down{
+			color:red;
+		}
+		.fa-thumbs-up{
+			color:darkblue;
+		}
 	</style>
+	<title>Quiz 3</title>
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<a class="navbar-brand" href="#">LaunchyGram</a>
+		<a class="navbar-brand" href="#">Quiz 3</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -41,4 +52,5 @@
 			</ul>
 		</div>
 	</nav>
+	
 	<div class="container">
